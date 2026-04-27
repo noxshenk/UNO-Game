@@ -7,7 +7,7 @@ import { GameBoard } from './components/GameBoard';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // @ts-ignore
-const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || 'http://localhost:3001';
+const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || 'https://uno-game-im88.onrender.com';
 
 const App: React.FC = () => {
   const [user, setUser] = useState<User | null>(null);
